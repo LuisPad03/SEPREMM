@@ -1,0 +1,53 @@
+
+u{
+    font-family: 'Satisfy', cursive;
+    font-size: 16.5px
+}
+
+
+.container_r{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEBEB;
+}
+
+.container-receta {
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+}
+
+.fecha, .logo{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 30px
+}
+
+.datos-hospital {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.paciente-nombre,
+.paciente-direccion,
+.paciente-edad,
+.paciente-peso,
+.refill,
+.generic,
+.firma,
+.dea,
+.receta-nombre
+{
+    margin: 0.85em;
+}
+
+.firma, .refill{
+    margin-top: 30px;
+}
+
+.receta-descripcion{
+    width: 500px;
+    height: 90px;
+    margin: 15px;
+}
